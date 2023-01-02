@@ -26,6 +26,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: docs/.vitepress/dist
-          external_repository: GenniaApp/docs
           publish_branch: page
           commit_message: ${{ github.event.head_commit.message }}
