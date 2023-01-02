@@ -1,0 +1,41 @@
+/* .vitepress/theme/custom.css */
+
+@font-face {
+	font-family: fwzc;
+	font-weight: 700;
+	font-style: normal;
+	src: url(/assets/webfonts/fwzcN.OTF);
+	font-display: swap
+}
+
+:root {
+	--vp-c-brand: #e436ad;
+	--vp-c-brand-light: #eb58bd;
+	--vp-c-brand-dark: #d12d9c;
+	--vp-c-brand-lighter: #f07ecc;
+}
+
+body {
+	font-family: fwzc, Lato, -apple-system, 'PingFang SC', 'Source Han Sans SC', 'Noto Sans CJK SC', 'Microsoft Yahei', 'Lantinghei SC', 'Hiragino Sans GB', 'Microsoft Sans Serif', 'WenQuanYi Micro Hei', sans-serif;
+}
+
+.vp-doc {
+	font-family: Lato, -apple-system, 'PingFang SC', 'Source Han Sans SC', 'Noto Sans CJK SC', 'Microsoft Yahei', 'Lantinghei SC', 'Hiragino Sans GB', 'Microsoft Sans Serif', 'WenQuanYi Micro Hei', sans-serif;
+}
+
+.VPImage:not(.image-src, .logo) {
+	height: 80px;
+}
+
+.title {
+	font-size: 20px !important;
+}
+
+mjx-container {
+	display: inline-block;
+	margin: auto 2px -2px;
+}
+
+mjx-container>svg {
+	margin: auto;
+}

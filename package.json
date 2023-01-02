@@ -1,0 +1,21 @@
+{
+  "name": "gennia-docs",
+  "version": "1.0.0",
+  "description": "Gennia Docs Website",
+  "main": "index.js",
+  "repository": "https://github.com/GenniaApp/docs",
+  "author": "Reqwey",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "markdown-it-mathjax3": "^4.3.2",
+    "vitepress": "^1.0.0-alpha.34",
+    "vue": "^3.2.45"
+  },
+  "dependencies": {}
+}
