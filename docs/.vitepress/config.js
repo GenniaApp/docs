@@ -123,16 +123,26 @@ export default {
     ],
     sidebar: [
       {
-        text: '基础玩法',
+        text: '基础设定',
         items: [
-          { text: '快速开始', link: '/quick-start' },
+          { text: '快速开始', link: '/quick-start/' },
+          { text: '游戏速度', link: '/quick-start/speed' },
+          { text: '地图和地形', link: '/quick-start/map' },
+          { text: '游玩操作', link: '/quick-start/keys' },
         ]
       },
       {
-        text: '进阶教程',
+        text: 'GenniaServer',
         items: [
-          { text: '服务器部署', link: '/server' },
-          { text: '机器人开发', link: '/bot-api' }
+          { text: '服务器部署', link: '/server/' }
+        ]
+      },
+      {
+        text: 'Bot 开发',
+        items: [
+          { text: 'API 介绍', link: '/bot-api/' },
+          { text: 'socket 接收', link: '/bot-api/on' },
+          { text: 'socket 发送', link: '/bot-api/emit' }
         ]
       }
     ],
@@ -141,7 +151,7 @@ export default {
     ],
     editLink: {
       pattern: 'https://github.com/GenniaApp/docs/edit/main/docs/:path',
-      text: 'Edit this page on GitHub'
+      text: '在 GitHub 上编辑此页'
     },
     docFooter: {
       prev: '上一篇',
@@ -149,7 +159,7 @@ export default {
     },
     footer: {
       message: 'Gennia 的技术还很稚嫩，她还在成长. . .',
-      copyright: 'Copyright © 2012-present Reqwey'
+      copyright: 'Copyright © 2022-present Reqwey'
     },
     algolia: {
       appId: 'QE7LMUJ22V',

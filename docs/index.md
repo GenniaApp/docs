@@ -11,10 +11,16 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /quick-start
+      link: /quick-start/
     - theme: alt
-      text: 送我一颗星星
+      text: 送我一颗星星⭐
       link: https://github.com/GenniaApp/Gennia
+    - theme: blue
+      text: 下载 Windows 版
+      link: https://github.com/GenniaApp/Gennia/releases/download/1.0.10patch2/Gennia.Setup.1.0.10-patch2.exe
+    - theme: teal
+      text: 下载 macOS 版
+      link: https://github.com/GenniaApp/Gennia/releases/download/1.0.10patch2/Gennia-1.0.10-patch2.dmg
 
 features:
   - icon: 

@@ -27,6 +27,26 @@ body {
 	height: 80px;
 }
 
+.VPButton.blue {
+	border-color: #90CAF9;
+	color: #1565C0;
+	background-color: #BBDEFB;
+}
+
+.VPButton.blue:hover {
+	background-color: #82B1FF;
+}
+
+.VPButton.teal {
+	border-color: #4DB6AC;
+	color: #00796B;
+	background-color: #B2DFDB;
+}
+
+.VPButton.teal:hover {
+	background-color: #64FFDA;
+}
+
 .title {
 	font-size: 20px !important;
 }
