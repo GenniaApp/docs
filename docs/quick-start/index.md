@@ -6,4 +6,4 @@
 
 ## 连接服务器
 
-连接你好友的内网 IP，或加入一台公开的 [GenniaServer](/server)
+连接你好友的内网 IP，或加入一台公开的 [GenniaServer](/server/)
