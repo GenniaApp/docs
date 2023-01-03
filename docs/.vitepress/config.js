@@ -161,10 +161,10 @@ export default {
       message: 'Gennia 的技术还很稚嫩，她还在成长. . .',
       copyright: 'Copyright © 2022-present Reqwey'
     },
-    algolia: {
-      appId: 'QE7LMUJ22V',
-      apiKey: '3e9460bbaac6905c7e1eda81762b52f2',
-      indexName: 'genniaSearch'
-    }
+    // algolia: {
+    //   appId: 'QE7LMUJ22V',
+    //   apiKey: '3e9460bbaac6905c7e1eda81762b52f2',
+    //   indexName: 'genniaSearch'
+    // }
   }
 }
