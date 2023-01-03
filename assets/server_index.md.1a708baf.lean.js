@@ -1,1 +1,0 @@
-import{_ as s,c as n,o as e,d as a}from"./app.eaece4d9.js";const A=JSON.parse('{"title":"GenniaServer","description":"","frontmatter":{},"headers":[],"relativePath":"server/index.md","lastUpdated":1672664992000}'),p={name:"server/index.md"},l=a("",7),o=[l];function r(c,t,i,d,C,_){return e(),n("div",null,o)}const D=s(p,[["render",r]]);export{A as __pageData,D as default};
