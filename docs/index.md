@@ -2,7 +2,7 @@
 layout: home
 title: '首页'
 hero:
-  name: Hi, Gennia
+  name: Hi, Gennia(1.0.11)
   text: 
   tagline: 创新的将军棋游戏引擎。由 Electron 驱动。
   image:
@@ -17,7 +17,7 @@ hero:
       link: https://github.com/GenniaApp/Gennia
     - theme: blue
       text: 下载 Windows 版
-      link: https://github.com/GenniaApp/Gennia/releases/download/1.0.10patch2/Gennia.Setup.1.0.10-patch2.exe
+      link: https://github.com/GenniaApp/Gennia/releases/download/1.0.10patch2/Gennia.Setup.1.0.11.exe
     - theme: teal
       text: 下载 macOS 版
       link: https://github.com/GenniaApp/Gennia/releases/download/1.0.10patch2/Gennia-1.0.10-patch2.dmg
