@@ -21,7 +21,7 @@ $ node app.js [roomName] [port]
 sudo vim /lib/systemd/system/gennia-server.service
 ```
 
-```service
+```ini
 [Unit]
 Description=Gennia Server Backend Service
 After=network.target network-online.target syslog.target
