@@ -127,9 +127,9 @@ export default {
         text: '基础设定',
         items: [
           { text: '快速开始', link: '/quick-start/' },
+          { text: '游玩操作', link: '/quick-start/keys' },
           { text: '游戏速度', link: '/quick-start/speed' },
           { text: '地图和地形', link: '/quick-start/map' },
-          { text: '游玩操作', link: '/quick-start/keys' },
         ],
       },
       {
