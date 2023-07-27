@@ -110,16 +110,17 @@ export default {
   description: 'Gennia Cyber Document.',
   lastUpdated: true,
 
-  head: [
-    ['link', { rel: 'icon', href: '/assets/img/favicon.png' }]
-  ],
+  head: [['link', { rel: 'icon', href: '/assets/img/favicon.png' }]],
 
   // Theme related configurations.
   themeConfig: {
     siteTitle: '官方文档',
     logo: '/assets/img/logo.png',
     nav: [
-      { text: '更新记录', link: 'https://github.com/GenniaApp/Gennia/releases' }
+      {
+        text: '更新记录',
+        link: 'https://github.com/GenniaApp/GenniaServer2/releases',
+      },
     ],
     sidebar: [
       {
@@ -129,42 +130,32 @@ export default {
           { text: '游戏速度', link: '/quick-start/speed' },
           { text: '地图和地形', link: '/quick-start/map' },
           { text: '游玩操作', link: '/quick-start/keys' },
-        ]
-      },
-      {
-        text: 'GenniaServer',
-        items: [
-          { text: '服务器部署', link: '/server/' }
-        ]
+        ],
       },
       {
         text: 'Bot 开发',
-        items: [
-          { text: 'API 介绍', link: '/bot-api/' },
-          { text: 'socket 接收', link: '/bot-api/on' },
-          { text: 'socket 发送', link: '/bot-api/emit' }
-        ]
-      }
+        items: [{ text: 'API 介绍', link: '/bot-api/' }],
+      },
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/GenniaApp/Gennia' }
+      { icon: 'github', link: 'https://github.com/GenniaApp/GenniaServer2' },
     ],
     editLink: {
       pattern: 'https://github.com/GenniaApp/docs/edit/main/docs/:path',
-      text: '在 GitHub 上编辑此页'
+      text: '在 GitHub 上编辑此页',
     },
     docFooter: {
       prev: '上一篇',
-      next: '接下来阅读'
+      next: '接下来阅读',
     },
     footer: {
       message: 'Gennia 的技术还很稚嫩，她还在成长. . .',
-      copyright: 'Copyright © 2022-present Reqwey'
+      copyright: 'Copyright © 2022-present GenniaApp',
     },
     // algolia: {
     //   appId: 'QE7LMUJ22V',
     //   apiKey: '3e9460bbaac6905c7e1eda81762b52f2',
     //   indexName: 'genniaSearch'
     // }
-  }
-}
+  },
+};
